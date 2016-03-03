@@ -1,0 +1,11 @@
+\target
+\.settings
+.project
+.classpath
+\bin
+*.class
+\rebel.xml
+/target/
+
+\node_modules
+/easysales-web/main.js
