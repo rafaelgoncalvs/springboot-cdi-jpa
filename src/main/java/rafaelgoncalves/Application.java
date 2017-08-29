@@ -5,6 +5,7 @@ import javax.inject.Named;
 import org.glassfish.jersey.server.ResourceConfig;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import rafaelgoncalves.resource.UserResource;
 
 @SpringBootApplication
 public class Application {
@@ -12,7 +13,7 @@ public class Application {
 	@Named
 	public static class ConfigRestResources extends ResourceConfig {
 		public ConfigRestResources() {
-			this.register(Resource.class);
+			this.register(UserResource.class);
 		}
 	}
 

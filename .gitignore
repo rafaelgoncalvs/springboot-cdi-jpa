@@ -1,11 +1,9 @@
-\target
-\.settings
-.project
-.classpath
-\bin
-*.class
-\rebel.xml
-/target/
+**/target/**
+**/.idea/**
+**/.settings/**
 
-\node_modules
-/easysales-web/main.js
+.classpath
+.project
+
+*.iml
+*.class
