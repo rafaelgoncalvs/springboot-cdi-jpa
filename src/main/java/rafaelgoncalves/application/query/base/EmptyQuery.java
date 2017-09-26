@@ -1,4 +1,4 @@
-package rafaelgoncalves.applicationservice.query.base;
+package rafaelgoncalves.application.query.base;
 
 public class EmptyQuery implements Query {
 

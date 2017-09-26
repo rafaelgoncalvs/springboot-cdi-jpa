@@ -1,4 +1,4 @@
-package rafaelgoncalves.applicationservice.command.base;
+package rafaelgoncalves.application.command.base;
 
 public class CommandConfirmation {
 

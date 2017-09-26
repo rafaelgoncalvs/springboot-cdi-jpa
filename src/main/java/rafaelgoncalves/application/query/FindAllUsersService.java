@@ -1,9 +1,9 @@
-package rafaelgoncalves.applicationservice.query;
+package rafaelgoncalves.application.query;
 
 import rafaelgoncalves.domain.UserRepository;
 import rafaelgoncalves.domain.User;
-import rafaelgoncalves.applicationservice.query.base.EmptyQuery;
-import rafaelgoncalves.applicationservice.query.base.QueryService;
+import rafaelgoncalves.application.query.base.EmptyQuery;
+import rafaelgoncalves.application.query.base.QueryService;
 
 import javax.inject.Inject;
 import javax.inject.Named;

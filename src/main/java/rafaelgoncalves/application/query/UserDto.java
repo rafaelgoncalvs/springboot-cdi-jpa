@@ -1,4 +1,4 @@
-package rafaelgoncalves.applicationservice.query;
+package rafaelgoncalves.application.query;
 
 public class UserDto {
 

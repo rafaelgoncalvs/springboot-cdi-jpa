@@ -1,15 +1,15 @@
 package rafaelgoncalves.resource;
 
-import rafaelgoncalves.applicationservice.command.AddUser;
-import rafaelgoncalves.applicationservice.command.AddUserService;
-import rafaelgoncalves.applicationservice.command.RemoveUser;
-import rafaelgoncalves.applicationservice.command.RemoveUserService;
-import rafaelgoncalves.applicationservice.command.base.CommandConfirmation;
-import rafaelgoncalves.applicationservice.query.FindAllUsersService;
-import rafaelgoncalves.applicationservice.query.FindUser;
-import rafaelgoncalves.applicationservice.query.FindUserService;
-import rafaelgoncalves.applicationservice.query.UserDto;
-import rafaelgoncalves.applicationservice.query.base.EmptyQuery;
+import rafaelgoncalves.application.command.AddUser;
+import rafaelgoncalves.application.command.AddUserService;
+import rafaelgoncalves.application.command.RemoveUser;
+import rafaelgoncalves.application.command.RemoveUserService;
+import rafaelgoncalves.application.command.base.CommandConfirmation;
+import rafaelgoncalves.application.query.FindAllUsersService;
+import rafaelgoncalves.application.query.FindUser;
+import rafaelgoncalves.application.query.FindUserService;
+import rafaelgoncalves.application.query.UserDto;
+import rafaelgoncalves.application.query.base.EmptyQuery;
 
 import java.net.URI;
 import java.util.List;
@@ -19,7 +19,7 @@ import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
-@Path("user")
+@Path("users")
 @Consumes(MediaType.APPLICATION_JSON)
 @Produces(MediaType.APPLICATION_JSON)
 public class UserResource {

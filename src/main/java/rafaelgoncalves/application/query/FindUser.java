@@ -1,6 +1,6 @@
-package rafaelgoncalves.applicationservice.query;
+package rafaelgoncalves.application.query;
 
-import rafaelgoncalves.applicationservice.query.base.Query;
+import rafaelgoncalves.application.query.base.Query;
 
 public class FindUser implements Query {
 

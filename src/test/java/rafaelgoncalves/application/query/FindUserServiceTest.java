@@ -1,10 +1,10 @@
-package rafaelgoncalves.applicationservice.query;
+package rafaelgoncalves.application.query;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.test.context.junit4.SpringRunner;
-import rafaelgoncalves.applicationservice.base.IntegrationTest;
-import rafaelgoncalves.applicationservice.base.UserPersist;
+import rafaelgoncalves.application.base.IntegrationTest;
+import rafaelgoncalves.application.base.UserPersist;
 import rafaelgoncalves.domain.User;
 
 import javax.inject.Inject;

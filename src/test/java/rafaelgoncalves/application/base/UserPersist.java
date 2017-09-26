@@ -1,4 +1,4 @@
-package rafaelgoncalves.applicationservice.base;
+package rafaelgoncalves.application.base;
 
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;

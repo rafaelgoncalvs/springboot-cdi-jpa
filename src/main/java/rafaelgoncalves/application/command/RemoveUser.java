@@ -1,6 +1,6 @@
-package rafaelgoncalves.applicationservice.command;
+package rafaelgoncalves.application.command;
 
-import rafaelgoncalves.applicationservice.command.base.Command;
+import rafaelgoncalves.application.command.base.Command;
 
 public class RemoveUser implements Command {
 

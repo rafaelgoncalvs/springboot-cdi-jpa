@@ -1,12 +1,12 @@
-package rafaelgoncalves.applicationservice.command;
+package rafaelgoncalves.application.command;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.test.context.junit4.SpringRunner;
-import rafaelgoncalves.applicationservice.base.IntegrationTest;
+import rafaelgoncalves.application.base.IntegrationTest;
 import rafaelgoncalves.domain.User;
 import rafaelgoncalves.domain.UserRepository;
-import rafaelgoncalves.applicationservice.command.base.CommandConfirmation;
+import rafaelgoncalves.application.command.base.CommandConfirmation;
 
 import javax.inject.Inject;
 

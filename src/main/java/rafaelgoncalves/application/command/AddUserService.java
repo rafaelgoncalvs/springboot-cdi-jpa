@@ -1,10 +1,10 @@
-package rafaelgoncalves.applicationservice.command;
+package rafaelgoncalves.application.command;
 
 import org.springframework.transaction.annotation.Transactional;
 import rafaelgoncalves.domain.UserRepository;
 import rafaelgoncalves.domain.User;
-import rafaelgoncalves.applicationservice.command.base.CommandConfirmation;
-import rafaelgoncalves.applicationservice.command.base.CommandService;
+import rafaelgoncalves.application.command.base.CommandConfirmation;
+import rafaelgoncalves.application.command.base.CommandService;
 
 import javax.inject.Inject;
 import javax.inject.Named;
