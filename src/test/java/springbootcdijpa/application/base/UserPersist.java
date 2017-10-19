@@ -1,13 +1,13 @@
 package springbootcdijpa.application.base;
 
-import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 import springbootcdijpa.domain.User;
 
+import javax.inject.Named;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
-@Repository
+@Named
 public class UserPersist {
 
     @PersistenceContext

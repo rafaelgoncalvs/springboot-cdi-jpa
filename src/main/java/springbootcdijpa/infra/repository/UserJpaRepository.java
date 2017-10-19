@@ -5,9 +5,9 @@ import springbootcdijpa.domain.UserRepository;
 
 import java.util.List;
 
+import javax.inject.Inject;
 import javax.inject.Named;
 import javax.persistence.EntityManager;
-import javax.persistence.PersistenceContext;
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Root;
@@ -15,10 +15,14 @@ import javax.persistence.criteria.Root;
 @Named
 public class UserJpaRepository implements UserRepository {
 
-	@PersistenceContext
 	private EntityManager entityManager;
-	
-	@Override
+
+	@Inject
+    public UserJpaRepository(EntityManager entityManager) {
+        this.entityManager = entityManager;
+    }
+
+    @Override
 	public List<User> getAll() {
 		CriteriaBuilder criteriaBuilder = entityManager.getCriteriaBuilder();
 		CriteriaQuery<User> criteriaQuery = criteriaBuilder.createQuery(User.class);
